@@ -8,6 +8,7 @@ object gimenez {
 	method sueldo() { return 15000 }
 	method sueldo(nuevoValor) { sueldo = nuevoValor }
 	method cobrarSueldo(sueldoPagado) { fondos += sueldoPagado } //Añade a los fondos de gimenez el sueldo del mes
+	method totalPagado() { return fondos }
 }
 
 object baigorria {
